@@ -1,0 +1,20 @@
+faire un pendu
+
+on etablit une liste de mots
+le mot est choisi au hasard dans la liste
+a chaque mauvaise reponse, on dessine un element du pendu. a 7 elements, la partie est perdue
+
+chaque lettre est remplacée par un "_"
+le joueur séléctionne une lettre via un input
+    - si la lettre est bonne, ( cad qu'elle est égale à une des lettres du mot)
+        elle apparait dans le mot en remplacant le "_"
+        lorsque tous les "_" sont remplacés, alors le joueur a gagné
+
+    - si la lettre est mauvaise, cad qu'elle est différente des lettres du mot
+        alors elle intégre une liste de mauvaises réponses
+        lorsque la liste atteind 7, perte de la partie
+
+condition switch
+case 1 = dessin de la tete, display hidden à apparent
+jusqu'au case 6 : tout le dessin est apparent
+case 7 : fin de partie

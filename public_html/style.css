@@ -1,0 +1,25 @@
+.container{
+    width: 60%;
+    margin: 20px auto;
+    padding-left: 10px;
+    border-width:  2px;
+    border-style: solid;
+    border-color: cadetblue;
+    
+}
+h1{
+    text-align: center;
+}
+
+/*.container{
+    width: 60%;
+    margin: 20px auto;
+    padding-left:10px;
+    border-width: 5px;
+    border-style: inset;
+    border-color: cadetblue;
+}
+
+h1{
+    text-align:center;
+}*/
